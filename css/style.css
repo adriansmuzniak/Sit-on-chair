@@ -87,25 +87,24 @@ nav li {
 
 .section1-image {
   float: left;
-  width: 47%;
+  width: 49%;
   background-size: cover;
   margin-left: 3%;
 }
 .section1-image img {
   height: 420px;
-  position: relative;
-  left: 90px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 150px;
 }
 
 .section1-text  {
   float: left;
   width: 30%;
-  position: absolute;
   right: 320px;
-  top: 27%;
+  top: 18%;
   text-align: center;
+  margin-top: 80px;
 
 }
 
@@ -128,4 +127,16 @@ nav li {
   color: #616161;
   line-height: 25px;
   font-size: 16px;
+}
+
+.section1-text .second-p  {
+  width: 250px;
+  background-color: #616161;
+  color: white;
+  font-size: 16px;
+  border-radius: 20%;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 100px;
+
 }
